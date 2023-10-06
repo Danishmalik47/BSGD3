@@ -1,113 +1,59 @@
 ﻿using System;
 
-namespace Methods
+class Variables
 {
-    internal class Program
+
+
+
+    static void Main(string[] args)
     {
-        private static int Result;
 
-        public static void Addition(int A, int B)
-        {
-            Result = A + B;
-        }
+        // Float variables
+        float float1 = 525.59f;
+        float float2 = 888.718f;
+        float float3 = 655.58f;
+        float float4 = 331243.3414f;
+        float float5 = 235.788f;
+        float float6 = 34915.1434f;
+        float float7 = 5463.1898f;
+        float float8 = 36652.65618f;
+        float float9 = 1561.6518f;
+        float float10 = 256121.124642f;
+        // Integer variables
+        int num1 = 412;
+        int num2 = -197;
+        int num3 = 1020;
+        int num4 = 4912;
+        int num5 = -5517;
+        int num6 = 105650;
+        int num7 = 456542;
+        int num8 = -131647;
+        int num9 = 1034720;
+        int num10 = 2132212;
 
-        public static void Subtraction(int A, int B)
-        {
-            Result = A - B;
-        }
 
-        public static void Multiplication(int A, int B)
-        {
-            Result = A * B;
-        }
+        // String variables
+        string stringer1 = "Hello";
+        string stringer2 = "Kaise ho";
+        string stringer3 = "Thik hu";
+        string stringer4 = "acha";
+        string stringer5 = "kya kr rhe ho";
+        string stringer6 = "kuch ni";
+        string stringer7 = "okay ji";
+        string stringer8 = "aur";
+        string stringer9 = "bs aur kuch ni";
+        string stringer10 = "okay yar";
+        // Boolean variables
+        bool bool1 = false;
+        bool bool2 = true;
+        bool bool3 = false;
+        bool bool4 = false;
+        bool bool5 = true;
+        bool bool6 = false;
+        bool bool7 = true;
+        bool bool8 = false;
+        bool bool9 = true;
+        bool bool10 = true;
 
-        public static void Division(int A, int B)
-        {
-            Result = A / B;
-        }
-
-        public static void Pass(int A)
-        {
-            if (A > 30)
-            {
-                Console.WriteLine("Pass");
-            }
-            else
-            {
-                Console.WriteLine("Fail");
-            }
-        }
-
-        public static void AGrade(int A)
-        {
-            if (A >= 90)
-            {
-                Console.WriteLine("A+ Grade");
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
-        }
-        public static void BGrade(int A)
-        {
-            if (A >= 70)
-            {
-                Console.WriteLine("B Grade");
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
-        }
-        public static void CGrade(int A)
-        {
-            if (A >= 60)
-            {
-                Console.WriteLine("C Grade");
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
-        }
-
-        public static void DGrade(int A)
-        {
-            if (A >= 50)
-            {
-                Console.WriteLine("D Grade");
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
-        }
-
-        private static void Fail(int A)
-        {
-            if (A <= 49)
-            {
-                Console.WriteLine("F Grade");
-            }
-            else
-            {
-                Console.WriteLine("Error");
-            }
-        }
-
-        public static void Main(string[] args)
-        {
-            Pass(91);
-            AGrade(91);
-            Pass(86);
-            BGrade(86);
-            Pass(69);
-            CGrade(69);
-            Pass(55);
-            DGrade(56);
-            Fail(15);
-            Fail(15);
-        }
     }
 }
